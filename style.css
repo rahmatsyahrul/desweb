@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    background-color: whitesmoke;
+    margin: auto;
+}
+
+.jumbotron {
+    height: 200px;
+    background-color: black;
+
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 100px;
+    padding-top: 40px;
+}
+
+header {
+    display: inline;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+ul {
+    background-color: black;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+
+}
+
+li {
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    padding: 5px 20px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+
+li:hover {
+    opacity: .5;
+    transition: .3s;
+}
+
+main {
+    overflow: auto;
+}
+
+content {
+    width: 60%;
+    float: left;
+}
+
+aside {
+    width: 28%;
+    float: right
+}
+
+.card {
+    border-radius: 5px;
+    background-color: wheat;
+    margin: 20px 0px;
+    padding: 20px 30px;
+    box-shadow: 15px 15px 5px black;
+}
+
+.card2 {
+    border-radius: 5px;
+    background-color: wheat;
+    margin: 20px 15px;
+    padding: 20px 30px;
+    box-shadow: 15px 15px 5px black;
+}
+
+h2 {
+    font-family: lobster;
+    margin-bottom: 20px;
+}
+
+p {
+    padding-bottom: 20px;
+    text-align: justify;
+    text-indent: 35px;
+    font-size: 20px;
+}
+
+footer {
+    height: 50px;
+    background-color: black;
+    color: whitesmoke
+}
+
+footer p {
+    text-align: center;
+    padding-top: 10px;
+}
